@@ -1,13 +1,13 @@
 :root {
   color-scheme: light;
-  --ink: #172a2c;
-  --ink-soft: #445457;
-  --paper: #f7f5ef;
-  --paper-deep: #ebe8de;
-  --white: #fffefa;
-  --accent: #d6754e;
-  --accent-deep: #a94830;
-  --line: #d9d7ce;
+  --ink: #202923;
+  --ink-soft: #505a53;
+  --paper: #f7f8f6;
+  --paper-deep: #e9ede9;
+  --white: #ffffff;
+  --accent: #cb6542;
+  --accent-deep: #963f28;
+  --line: #d8ded8;
   --serif: Georgia, "Times New Roman", serif;
   --sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
 }
