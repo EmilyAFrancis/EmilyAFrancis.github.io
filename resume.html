@@ -1,60 +1,86 @@
 <!doctype html>
-
-<!-- this is a comment for human! -->
-
 <html lang="en">
-
-  <header>
-    <title>Emily Francis's Resume</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Education and professional experience for Emily Francis.">
+    <title>Resume | Emily Francis</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="faviconicon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icom">
-    -<meta name="viewport" content="width=device width, initial scale=1, shrink to fit=no">
-    <meta name="name" content="Emily Francis's Portal">
-    <meta name="robots" content="noindex, nofollow">
-  </header>
-
+  </head>
   <body>
-    <hr>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Emily Francis, home">EF<span>.</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html#about">About</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+        <a href="mailto:efrancis@mail.umw.edu">Contact</a>
+      </nav>
+    </header>
 
-    <img src="images/headshot.jpg" alt="Emily Francis's headshot" width="20%">
+    <main id="main" class="resume-main page-width">
+      <section class="resume-heading" aria-labelledby="resume-title">
+        <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Political Science · University of Mary Washington</p>
+        <h1 id="resume-title">Emily Francis<span>.</span></h1>
+        <p class="resume-lead">Education and experience</p>
+        <div class="resume-links">
+          <a href="mailto:efrancis@mail.umw.edu">efrancis@mail.umw.edu</a>
+          <a href="https://github.com/emilyafrancis" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+        </div>
+      </section>
 
-    <h1>Emily Francis</h1>
-    <h4>Student at University of Mary Washington</h4>
+      <section class="resume-section" aria-labelledby="education-title">
+        <div class="section-index">01 <span>—</span> Education</div>
+        <div class="resume-details">
+          <h2 id="education-title">University of Mary Washington</h2>
+          <p class="resume-meta">Fredericksburg, Virginia</p>
+          <p>B.A. Political Science <span class="detail-separator">·</span> GPA 3.85</p>
+        </div>
+      </section>
 
-    <p>Email: <a href="mailto:efrancis@mail.umw.edu" target="_blank">harrisonkong@skyroute66.com</a></p>
-    <!-- don't post physical address, personal phone number or other personal information on the web! -->
+      <section class="resume-section" aria-labelledby="experience-title">
+        <div class="section-index">02 <span>—</span> Professional experience</div>
+        <div class="resume-details">
+          <h2 class="visually-hidden" id="experience-title">Professional experience</h2>
+          <article class="experience-item">
+            <div class="experience-topline">
+              <div>
+                <h3>Host, Food Runner, Busser</h3>
+                <p class="resume-meta">Second Street Bistro <span class="detail-separator">·</span> Williamsburg, VA</p>
+              </div>
+              <p class="experience-date">March 2021 – June 2024</p>
+            </div>
+            <ul>
+              <li>Greeted, seated, and interacted with guests.</li>
+              <li>Cleaned and reset tables, ran food, and assisted servers.</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-topline">
+              <div>
+                <h3>Horse Riding Instructor</h3>
+                <p class="resume-meta">Indian Point <span class="detail-separator">·</span> Suffolk, VA</p>
+              </div>
+              <p class="experience-date">January 2022 – December 2024</p>
+            </div>
+            <ul>
+              <li>Taught children and adults the fundamentals of riding.</li>
+              <li>Taught horsemanship and safety to all age groups.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-    <h2>Portfolio</h2>
-      <h3>GitHub: <a href="https://github.com/emilyafrancis" target="_blank">https://github.com/harrisonkong</a></h3>
+      <section class="resume-cta" aria-label="Contact Emily">
+        <p>Want to know more?</p>
+        <a class="button button-dark" href="mailto:efrancis@mail.umw.edu">Get in touch <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
 
-    <h2>Education</h2>
-
-    <h3>University of Mary Washingotn, Fredericksburg</h3>
-    <h4>B.A. Political Science, GPA 3.85</h4>
-
-    <h2>Professional Experiences</h2>
-
-    <h3>Host, Food Runner, Busser</h3>
-    <h4>Second Street Bistro, WIlliamsburg, VA</h4>
-    <h5>March 2021 - June 2024</h5>
-      <ul>
-        <li>Greet, Seat, and Interact with guests</li>
-        <li>Clean/Buss tables, Run food, Assist Servers</li>
-      </ul>
-
-    <h3>Horse Riding Instructor</h3>
-    <h4>Indian Point, Suffolk, VA</h4>
-    <h5>January 2022 - December 2024</h5>
-      <ul>
-        <li>Teach kids and adults the fundamentals of riding</li>
-        <li>Teach horsemanship and safety to all age groups</li>
-      </ul>
+    <footer class="site-footer page-width">
+      <a class="wordmark footer-wordmark" href="index.html">EF<span>.</span></a>
+      <p>© 2026 Emily Francis</p>
+      <a class="footer-top" href="index.html">Back to home ↑</a>
+    </footer>
   </body>
-
-  <footer>
-  <hr>
-  <p><a href="index.html">Back to my portal</a><p>
-  </footer>
-
 </html>
